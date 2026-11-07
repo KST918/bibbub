@@ -7,16 +7,17 @@
 
 /* 1. ЗМІННІ. У кроці «Оформлення» замініть значення кольорами своєї палітри.
       В інших місцях файла кольори беріть ЛИШЕ через var(--…). */
+@import url('https://fonts.googleapis.com/css2?family=Tiny5+Duo:ital,wght@0,100..900;1,100..900&display=swap');
 :root {
-  --bg: #f3f4f6;
-  --surface: #e5e7eb;
-  --text: #111827;
-  --accent: #6b7280;
-  --accent2: #9ca3af;
+  --bg: #ffe1a8;
+  --surface: #c9cba3;
+  --text: #472d30;
+  --accent: #e26d5c;
+  --accent2: #723d46;
   --muted: color-mix(in srgb, var(--text) 60%, var(--bg));
   --line: color-mix(in srgb, var(--text) 25%, var(--bg));
   --radius: 10px;
-  --font: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+  --font: 'Tiny5 Duo', system-ui, sans-serif;
 }
 
 * {
