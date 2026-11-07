@@ -7,6 +7,7 @@
 
 /* 1. ЗМІННІ. У кроці «Оформлення» замініть значення кольорами своєї палітри.
       В інших місцях файла кольори беріть ЛИШЕ через var(--…). */
+@import url('https://fonts.googleapis.com/css2?family=Tiny5+Duo:ital,wght@0,100..900;1,100..900&display=swap');
 :root {
   --bg: #ffe1a8;
   --surface: #c9cba3;
